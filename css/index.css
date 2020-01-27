@@ -74,7 +74,6 @@ header {
     justify-content: space-between;
     font-size: 80px;
     font-family: 'Bangers', cursive;
-    align-content: center;
 }
 .innovation {
     display:flex;
@@ -95,149 +94,28 @@ button {
     padding:0px;
     width:200px;
     border: 2px solid black;
+    margin-left: 60px;
 }
-
-.first-section {
-	display:flex;
-	 justify-content: space-between;
-
+/* Starting features */
+.first-section{
+	display:inline-block;
+	width:49%
 }
-
-h3 {
-	display:flex;
-	flex-direction: column;
-	width:1000px;
-	height: 20px;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
-.box1 {
-	width: 430px;
-	height: 250px;
-	margin-bottom: 20px;
-	margin-top:20px;
-	margin-right: 20px;
-	background-color: lightgray;
-	border: 5px solid black;
-	display:flex;
-	align-content: space-around;
-	flex-wrap: wrap;
-	padding:10px;
-
-}
-.box2 {
-	width: 430px;
-	height: 250px;
-	margin-bottom: 20px;
-	margin-top:20px;
-	background-color: lightgray;
-	border: 5px solid black;
-	display:flex;
-	align-content: space-around;
-	flex-wrap: wrap;
-	padding:10px;
-}
-.box3 {
-	width: 430px;
-	height: 250px;
-	margin-bottom: 20px;
-	margin-top:20px;
-	margin-right: 20px;
-	background-color: lightgray;
-	border: 5px solid black;
-	display:flex;
-	align-content: space-around;
-	flex-wrap: wrap;
-	padding:10px;
-}
-.box4 {
-	width: 430px;
-	height: 250px;
-	margin-bottom: 20px;
-	margin-top:20px;
-	background-color: lightgray;
-	border: 5px solid black;
-	display:flex;
-	align-content: space-around;
-	flex-wrap: wrap;
-	padding:10px;
-}
-.box5 {
-	width: 430px;
-	height: 250px;
-	margin-bottom: 20px;
-	margin-top:20px;
-	margin-right: 20px;
-	background-color: lightgray;
-	border: 5px solid black;
-	display:flex;
-	align-content: space-around;
-	flex-wrap: wrap;
-	padding:10px;
-}
-.box6 {
-	width: 430px;
-	height: 250px;
-	margin-bottom: 20px;
-	margin-top:20px;
-	background-color: lightgray;
-	border: 5px solid black;
-	display:flex;
-	align-content: space-around;
-	flex-wrap: wrap;
-	padding:10px;
-}
-
-.second-section {
-	display:flex;
-	 justify-content: space-between;
-}
-.third-section {
-	display:flex;
-	 justify-content: space-between;
-}
-.firth-section {
-	display:flex;
-	 justify-content: space-between;
-}
-.box7 {
-	width: 430px;
-	height: 250px;
-	margin-bottom: 20px;
-	margin-top:20px;
-	margin-right: 20px;
-}
-
-ul {
-	margin-bottom: 20px;
-	margin-top: 20px
-}
-
-li {
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-left:20px;
-}
-
-footer {
+footer{
 	text-align: center;
-	margin-bottom: 20px;
-	margin-top: 20px
+}
+.second-section {
+	display:inline-block;
+	width:30%
+}
+address{
+	text-align: left;
+}
+.margin {
+	margin-bottom: 5px;
 }
 
-hr {
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-
-h1 {
-	margin-top:20px;
-	font-size:30px;
-}
-
-.top {
-	display:flex;
-	justify-content: space-between;
-	width:800px
+.middle-img{
+padding-top: 30px;
+padding-bottom: 30px ;
 }

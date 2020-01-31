@@ -65,13 +65,18 @@ h1, h2, h3, h4, h5 {
 }
 
 /* New Code start */
+hr {}
+a {
+    color:black;
+    text-decoration:none;
+}
 .top {
     display:flex;
     justify-content: space-around;
 }
 
 body{
-	width:800px;
+	max-width:800px;
 	margin:auto;
 }
 header {
@@ -123,4 +128,103 @@ address{
 .middle-img{
 padding-top: 30px;
 padding-bottom: 30px ;
+}
+@media(max-width:800px){
+    .body-container{
+        background-color: blue;
+    }
+    .header-image {
+        display:none;
+    }
+    .innovation {
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+        .top {
+            justify-content: center;
+      align-content: center;
+      width:100%;
+      flex-wrap: wrap;
+    }
+}
+@media(max-width:500px) {
+        /* .body-container {
+      display:flex;
+      flex-direction: column;
+      max-width:100%;
+      align-items: center;
+    } */
+    
+    .logo {
+       width:100%;
+       /* margin-left: 150px; */
+    }
+    .top {
+      flex-direction:column-reverse;
+      justify-content: center;
+      align-content: center;
+      width:100%;
+    }
+    a {
+        display:flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .header-image {
+        display:none;
+    }
+    .middle-img {
+        width:100%;
+        /* margin-left: 15px; */
+    }
+    .services-a {
+        border: 3px outset grey; 
+    }
+    .product-a {
+        border: 3px outset grey;
+    }
+    .vision-a {
+        border: 3px outset grey;
+    }
+    .features-a {
+        border: 3px outset grey;
+    }
+    .about-a { 
+        border: 3px outset grey;
+    }
+    .contact-a {
+        border: 3px outset grey;
+    }
+    .features {
+        display:flex;
+        flex-direction: column;
+    }
+    .services {
+        display:flex;
+        flex-direction: column;
+    }
+    .first-section {
+        width:100%;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+    .second-section {
+        width:100%;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+    address {
+        width:100%;
+    }
+    hr {
+        padding:0px;
+        margin:0px;
+        width:100%;
+    }
+    .box {
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
